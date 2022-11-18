@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tracksuits",
+  "info": {
+    "singularName": "tracksuit",
+    "pluralName": "tracksuits",
+    "displayName": "Tracksuits",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ProductInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "info.product-info"
+    },
+    "Image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image.product-image"
+    }
+  }
+}

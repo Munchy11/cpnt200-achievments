@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_blogs_posts",
+  "info": {
+    "displayName": "Posts",
+    "icon": "blog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "ArticleParagraph": {
+      "type": "richtext"
+    },
+    "DatePosted": {
+      "type": "date"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_info_product_infos",
+  "info": {
+    "displayName": "ProductInfo",
+    "icon": "info-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ProductName": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Color": {
+      "type": "enumeration",
+      "enum": [
+        "Black",
+        "Grey",
+        "Brown",
+        "Navy",
+        "Yellow",
+        "Orange"
+      ]
+    },
+    "Size": {
+      "type": "enumeration",
+      "enum": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    },
+    "Price": {
+      "type": "decimal"
+    }
+  }
+}
